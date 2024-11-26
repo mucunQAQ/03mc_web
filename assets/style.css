@@ -1,0 +1,71 @@
+* {
+    padding:0;/* 内边距 */
+    margin:0;/* 外边距 */
+}
+* ul{
+    list-style-type: none;
+}
+header{
+    height: 62px;/* 高度 */
+    width: 100%;/* 宽度 */
+    background-image: url(img/hengfu.png);/* 背景图片 */
+}
+header ul {
+    font-size: 24px;/* 字体大小 */
+    position: absolute;/* 绝对定位 */
+    right: 10vw;/* 右边距 */
+    top: 0px;/* 上边距 */
+    line-height: 62px;/* 行高 */
+}
+header li {
+    display: inline;/* 内联 */
+}
+header a{
+    color:#fff;/* 字体颜色 */
+    text-decoration:none;/* 去掉下划线 */
+    padding: 0 2px;/* 内边距 */
+}
+header a:hover{
+    color:#FC0;/* 字体颜色 */
+	text-decoration: none;
+}
+.db-dh1{
+	width:100%;
+}
+.db-dh2{
+	margin-left: 53%;
+	float: left;
+	border: 1px solid #999;
+	font-size: 20px;
+	width: 450px;
+	text-align: center;
+	height: 60px;
+	line-height: 50px;
+}
+.db-dh2 a{
+	margin-top: 31px;
+}
+.menu{
+	background-color:#FFD700;
+	width:20%;
+	float:left;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu a{
+	text-decoration: none;
+	color:black;
+}
+.content{
+	background-color:#EEEEEE;
+	width:80%;
+	float:left;
+}
+.content a{
+	text-decoration: none;
+	color: #0000cc;
+}
+a:hover {
+	text-decoration: underline;
+}
